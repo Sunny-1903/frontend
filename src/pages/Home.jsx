@@ -115,7 +115,8 @@ const Home = () => {
       </div>
 
       <section className="todosContainer">
-        {tasks.map((i) => (
+        {
+        tasks?.map((i) => (
           <TodoItem
             title={i.title}
             description={i.description}
